@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools-scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pkamap"
+version = "0.1.0"
+description = "pKa Measurement by DMS-MaPseq Profiling"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "lmfit",
+]
+
+[project.optional-dependencies]
+dev = ["jupyter", "ipywidgets", "openpyxl"]
+
+[tool.setuptools.packages.find]
+include = ["pkamap*"]
