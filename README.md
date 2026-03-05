@@ -6,7 +6,7 @@ Calculate RNA nucleotide pKa values from pH-dependent DMS-MaPseq reactivity data
 
 ## Overview
 
-pKaMaP fits Henderson-Hasselbalch curves to DMS reactivity measured across a pH titration series to extract per-nucleotide pKa values. The pipeline:
+pKaMaP fits the Henderson-Hasselbalch equation to DMS reactivity measured across a pH titration series to extract per-nucleotide pKa values. The pipeline:
 
 1. Loads sequencing data from run JSON files (produced by [dreem](https://github.com/jyesselm/dreem) or equivalent)
 2. Extracts experimental conditions (pH, buffer, temperature, Mg²⁺) from construct naming conventions
