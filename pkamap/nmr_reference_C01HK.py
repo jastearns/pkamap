@@ -14,13 +14,13 @@ _NMR_DATA = {
     "motif_sequence": [
         "GAC&GCC", "GAU&ACC", "CGAAG&CCGAG", "GAG&CCC", "GAA&UCC",
         "UAU&ACA", "UAA&UCA", "CCC&GAUG", "CCGAGC&GGAG", "GAC&GC",
-        "AGA&UAU", "GAG&CAU",
+        "AGA&UAU", "GAG&CAU", "CAGAAACAG&CGUAUAUUACG",
     ],
-    "nt_-1": ["G", "G", "A", "G", "G", "U", "U", "G", "G", "G", "U", "C"],
-    "nt_+0": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
-    "nt_+1": ["C", "U", "G", "G", "A", "U", "A", "U", "G", "C", "U", "U"],
-    "nmr_pKa": [8.1, 7.84, 6.4, 8.00, 7.28, 7.09, 6.51, 6.0, 6.4, 5.84, 6.21, 5.65],
-    "nmr_pKa_error": [0.06, 0.05, 0.1, 0.06, 0.08, 0.03, 0.04, 0.1, 0.1, 0.08, 0.05, 0.05],
+    "nt_-1": ["G", "G", "A", "G", "G", "U", "U", "G", "G", "G", "U", "C", "U"],
+    "nt_+0": ["A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A", "A"],
+    "nt_+1": ["C", "U", "G", "G", "A", "U", "A", "U", "G", "C", "U", "U", "U"],
+    "nmr_pKa": [8.1, 7.84, 6.4, 8.00, 7.28, 7.09, 6.51, 6.0, 6.4, 5.84, 6.21, 5.65, 5.8],
+    "nmr_pKa_error": [0.06, 0.05, 0.1, 0.06, 0.08, 0.03, 0.04, 0.1, 0.1, 0.08, 0.05, 0.05, 0.2],
     "source": [
         "https://pubs.acs.org/doi/full/10.1021/bi400768q",
         "https://pubs.acs.org/doi/full/10.1021/bi400768q",
@@ -34,6 +34,7 @@ _NMR_DATA = {
         "https://www.nature.com/articles/s41589-020-00667-5",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC9116285/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC9116285/",
+        "https://pubs.acs.org/doi/10.1021/bi001976r",
     ],
 }
 
